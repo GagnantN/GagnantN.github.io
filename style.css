@@ -1,0 +1,15 @@
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.baniere{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    width: 4vw;
+    height: auto
+}
