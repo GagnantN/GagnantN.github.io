@@ -45,7 +45,7 @@ section{
 /*Page Battle */
 
 body{
-    background-image: url("images/marioVSsonic.jpg");
+    background-image: url("../images/marioVSsonic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
