@@ -41,3 +41,10 @@ section{
     margin-bottom: 10vh;
 }
 
+.row{
+    border: solid 3px red;
+}
+
+.col{
+    border: solid 3px yellow;
+}
