@@ -24,6 +24,7 @@ h1{
     margin-top: 5vh;
     padding-top: 5vh;
     margin-bottom: 5vh;
+    color: orange;
 }
 
 .bsfooter{
@@ -41,10 +42,11 @@ section{
     margin-bottom: 10vh;
 }
 
-.row{
-    border: solid 3px red;
+/*Page Battle */
+
+body{
+    background-image: url("images/marioVSsonic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.col{
-    border: solid 3px yellow;
-}
