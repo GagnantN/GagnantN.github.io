@@ -21,7 +21,7 @@ h1{
 .navbar{
     z-index: 10000;
 }
-/*timeline*/
+/*-------------------timeline start------------------------*/
 
 .timelineblock{
 z-index: 0;
@@ -134,7 +134,7 @@ body {
   }
   
 
-  /*timeline end*/
+  /*----------------timeline end-----------------*/
 
   .timeline-images{
       width: 30vw;

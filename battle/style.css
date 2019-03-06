@@ -27,7 +27,7 @@ h1{
 }
 
 .bsfooter{
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0px;
@@ -39,4 +39,12 @@ section{
 
 .menubootstrap{
     margin-bottom: 10vh;
+}
+
+.row{
+    border: solid 3px red;
+}
+
+.col{
+    border: solid 3px yellow;
 }
