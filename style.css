@@ -21,6 +21,9 @@ body, html{
 
 h1{
     text-align: center;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .bsfooter{
@@ -28,4 +31,12 @@ h1{
     left: 0;
     right: 0;
     bottom: 0px;
+}
+
+section{
+    
+}
+
+.menubootstrap{
+    margin-bottom: 10vh;
 }
