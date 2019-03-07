@@ -3,6 +3,7 @@ body, html{
     padding: 0;
 }
 
+
 .sticky{
     position: fixed;
     top: 0;
@@ -15,7 +16,7 @@ body, html{
 }
 
 .logo{
-    width: 4vw;
+    width: 7vh;
     height: auto;
 }
 
@@ -37,13 +38,6 @@ h1{
     margin-bottom: 10vh;
 }
 
-.row{
-    border: solid 3px red;
-}
-
-.col{
-    border: solid 3px yellow;
-}
 .change {
     background-image: url(https://unsplash.com/photos/TPH3q6202qA);
     background-size: cover;
