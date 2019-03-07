@@ -3,15 +3,25 @@ body, html{
     padding: 0;
 }
 
-.sticky{
+
+/* .sticky{
     position: fixed;
     top: 0;
     width: 100%;
+} */
+
+.menubootstrap{
+    margin-bottom: 10vh;
 }
 
 .baniere{
     width: 100%;
     height: auto;
+}
+
+img{
+    height: 200px;
+    width: auto;
 }
 
 .logo{
@@ -26,25 +36,11 @@ h1{
     margin-bottom: 5vh;
 }
 
-.bsfooter{
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0px;
+.btn-group button{
+    border-color: #000080;
+    color: rebeccapurple;
 }
 
-section{
-    
-}
-
-.menubootstrap{
-    margin-bottom: 10vh;
-}
-
-.row{
-    border: solid 3px red;
-}
-
-.col{
-    border: solid 3px yellow;
+.btn-group button:hover{
+    background-color: #000080;
 }
