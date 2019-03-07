@@ -12,7 +12,7 @@ body, html{
 
 
 .logo{
-    width: 4vw;
+    width: 7vh;
     height: auto;
 }
 
@@ -33,9 +33,9 @@ footer{
 
 
 
-/* Navbar personnaliser */
+/* Navbar personnalisée */
 
-.bg-light {
+/* .bg-light {
     background-color: #000a15!important;
     
 }
@@ -54,7 +54,7 @@ footer{
 
 .navbar-light .navbar-toggler  {
   color: rgb(253, 253, 253);
-}
+} */
 
 
 
