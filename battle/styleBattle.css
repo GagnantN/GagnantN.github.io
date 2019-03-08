@@ -102,6 +102,23 @@ footer{
   color: rgba(226, 171, 17, 0.9);
 }
 
+.dropdown-items {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 600;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: rgba(226, 171, 17, 0.9);
+  border: 0;
+}
+
+.drop-up {
+  top: auto;
+  bottom: 100% !important;
+}
 
 /* Fonts Face */
 
