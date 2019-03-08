@@ -4,6 +4,17 @@ body, html{
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky-top{
+    position:fixed;
+    top: 0;
+	width: 100vw;
+}
+
 .logo{
     width: 7vh;
     height: auto;
@@ -27,6 +38,22 @@ h1{
 	    /* font-family: 'gamez'; 
     font-size: 3vh; */
     font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-light .navbar-toggler  {
+    color: rgb(0, 0, 0);
 }
 
 /* CONTAINER CARROUSEL */
