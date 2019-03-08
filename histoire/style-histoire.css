@@ -1,5 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
 
+body, html{
+    margin: 0;
+    padding: 0;
+}
 
+@font-face{
+    font-family: 'gamez';
+    src: url(font/Games.ttf);
+}
+
+@font-face{
+    font-family: 'gamezit';
+    src: url(font/Games-Italic.ttf);
+}
 
 /* MENU NAV */
 
@@ -8,9 +24,17 @@
     height: auto;
 }
 
+li.audioplayer {
+margin-left: 70vw
+}
+
+.menubootstrap{
+    /* font-family: 'gamez'; 
+    font-size: 3vh; */
+    font-weight: 700;
+}
+
 /* Navbar personnalisée */
-
-
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
@@ -30,25 +54,79 @@
 
 /* BODY */
 
-h1{
-    text-align: center;
-    margin: 2vh 0 2vh 0;
+.carousel-title{
+    transform: translateY(-51vw);
+    font-size: 6vw;
+    background-color: rgba(255, 255, 255, 0.521);
+    color:black;
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: 'gamez';
+    padding-top: 1.5vw;
+    padding-bottom: 0vw;
+    margin: 0 29vw 0 29vw;
+    
 }
 
-.vertical-line{
+.containerhistoire p{
+    font-family: 'gamezit';
+    font-size: 2.2vw;
+    text-transform: capitalize;
+    margin: 0 8vw 0 13vw;
+    transform: translateY(-25vw);
+    color: white
+}
+
+.introd p{
+    font-family: 'gamezit';
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: 0vh;
+    transform: translateY(-5vw);
+    text-align: center
+}
+
+h1, h2{
+    text-align: center;
+    padding: 4vh 0 4vh 0;
+    font-family: 'gamez';
+}
+
+h3.date{
+    margin: 8vh 0 8vh 0;
+    text-align: center;
+    font-family: 'gamez';
+    font-size: 7vh;
+}
+
+img.centerimage {
+width: 50vw;
+height: auto;
+margin: 10vh 0 10vh 25vw;
+}
+
+/*vertical line for chronology styling attempt*/
+/* .vertical-line{
     width: 30px;
     border: solid 3px black;
     transform: rotate(90deg);
     transform: translateY(50vw);
-    
-}
+} */
+/*another day...*/
 
-/*-----------CARD---------*/
+
+/* Cardz */
+
 .card{
     max-width: 60%; 
-    margin-left: 20%
+    margin-left: 20%;
+    padding: 5vh 5vw 5vh 5vw;
 }
 
+h5.card-title{
+    font-family: 'gamez';
+    font-size: 5vh;
+}
 
 .card-img-top{
     width: 50vw;
@@ -59,8 +137,8 @@ h1{
     color: black;
 }
 
+/*FOOTER*/
 
-h3.date{
-    margin: 4vh 0 4vh 0;
-    text-align: center
-}
+.bsfooter ul{
+    margin: auto;
+  }

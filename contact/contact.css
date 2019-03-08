@@ -5,10 +5,14 @@ body, html{
     padding: 0;
 }
 
-.sticky{
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky-top{
     position:fixed;
     top: 0;
-    width: 100%;
+	width: 100vw;
 }
 
 .logo{
@@ -24,20 +28,22 @@ h1{
 }
 
 .bsfooter{
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0px;
 }
 
 .menubootstrap{
-    margin-bottom: 10vh;
+	margin-bottom: 10vh;
+	    /* font-family: 'gamez'; 
+    font-size: 3vh; */
+    font-weight: 700;
 }
 
 /* CONTAINER CARROUSEL */
 
 /* CONTAINER FORMULAIRE DE CONTACT */
-/* 
+
 .contact-us {
 	padding: 40px;
 	margin: 120px;
@@ -168,4 +174,9 @@ h1{
 	background-repeat: repeat;
 }
 
-CONTAINER GALLERIE IMAGE */
+/*FOOTER*/
+
+.bsfooter ul{
+  margin: auto;
+
+}

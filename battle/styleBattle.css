@@ -3,12 +3,20 @@ body, html{
     padding: 0;
 }
 
-.sticky{
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky-top{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
 }
+
+li.audioplayer {
+  margin-left: 69vw
+  }
 
 
 .logo{
@@ -123,8 +131,8 @@ footer{
 /* Fonts Face */
 
 @font-face{
-    font-family: game;
-    src: url('../fontFaces/game-battles.ttf');
+    font-family: 'game';
+    src: url(game-battles.ttf);
     
 }
 
@@ -169,7 +177,6 @@ h1{
     font-family: game;
     color: rgb(201, 201, 201);
     font-weight: 800;
-   
     text-shadow: 10px 6px rgb(0, 74, 117);
     text-align: center;
     font-size: 5vw;
@@ -396,4 +403,10 @@ body
 .rounded{
   height: 20vh;
   width: 20vh;
+}
+
+/*FOOTER*/
+
+.bsfooter ul{
+  margin: auto;
 }
