@@ -1,4 +1,4 @@
-Welchome Everone, this is our git repository for the second group project at WCS
+Welcome Everone, this is our git repository for the second group project at WCS
 
 Participants are :
 
