@@ -3,6 +3,10 @@ body, html{
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .sticky{
     position: fixed;
@@ -28,7 +32,6 @@ h1{
 }
 
 .bsfooter{
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0px;
@@ -36,6 +39,7 @@ h1{
 
 .menubootstrap{
     margin-bottom: 10vh;
+
 }
 
 .change {
@@ -196,4 +200,8 @@ a.box_btn:hover::before {
     z-index: -1;
     }
     
-    
+    /*FOOTER*/
+
+.bsfooter ul{
+    margin: auto;
+  }

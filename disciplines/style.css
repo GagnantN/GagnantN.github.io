@@ -3,6 +3,9 @@ body, html{
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* .sticky{
     position: fixed;
@@ -12,6 +15,7 @@ body, html{
 
 .menubootstrap{
     margin-bottom: 10vh;
+
 }
 
 .baniere{
@@ -44,3 +48,9 @@ h1{
 .btn-group button:hover{
     background-color: #000080;
 }
+
+/*FOOTER*/
+
+.bsfooter ul{
+    margin: auto;
+  }

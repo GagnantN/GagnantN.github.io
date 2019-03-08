@@ -5,10 +5,15 @@ body, html{
     padding: 0;
 }
 
-.sticky{
+html {
+    scroll-behavior: smooth;
+}
+
+.sticky-top{
     position:fixed;
     top: 0;
-    width: 100%;
+	width: 100vw;
+	padding-left: 0.8vw
 }
 
 .logo{
@@ -24,7 +29,6 @@ h1{
 }
 
 .bsfooter{
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0px;
@@ -37,7 +41,7 @@ h1{
 /* CONTAINER CARROUSEL */
 
 /* CONTAINER FORMULAIRE DE CONTACT */
-/* 
+
 .contact-us {
 	padding: 40px;
 	margin: 120px;
@@ -168,4 +172,9 @@ h1{
 	background-repeat: repeat;
 }
 
-CONTAINER GALLERIE IMAGE */
+/*FOOTER*/
+
+.bsfooter ul{
+  margin: auto;
+
+}

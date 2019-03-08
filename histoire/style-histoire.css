@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* MENU NAV */
@@ -9,8 +11,6 @@
 }
 
 /* Navbar personnalisée */
-
-
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
@@ -35,15 +35,23 @@ h1{
     margin: 2vh 0 2vh 0;
 }
 
-.vertical-line{
+h3.date{
+    margin: 4vh 0 4vh 0;
+    text-align: center
+}
+
+/*vertical line for chronology styling attempt*/
+/* .vertical-line{
     width: 30px;
     border: solid 3px black;
     transform: rotate(90deg);
     transform: translateY(50vw);
-    
-}
+} */
+/*another day...*/
 
-/*-----------CARD---------*/
+
+/* Cardz */
+
 .card{
     max-width: 60%; 
     margin-left: 20%
@@ -59,8 +67,9 @@ h1{
     color: black;
 }
 
+/*FOOTER*/
 
-h3.date{
-    margin: 4vh 0 4vh 0;
-    text-align: center
-}
+.bsfooter ul{
+    margin: auto;
+    bottom: 0
+  }
