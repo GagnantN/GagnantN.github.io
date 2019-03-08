@@ -28,11 +28,13 @@ li.audioplayer {
 margin-left: 70vw
 }
 
-.menubootstrap{
+.menubootstrap a{
     /* font-family: 'gamez'; 
     font-size: 3vh; */
     font-weight: 700;
 }
+
+
 
 /* Navbar personnalisée */
 
