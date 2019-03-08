@@ -132,7 +132,7 @@ footer{
 
 @font-face{
     font-family: 'game';
-    src: url(game-battles.ttf);
+    src: url('../fontFaces/game-battles.ttf');
     
 }
 
