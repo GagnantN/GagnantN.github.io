@@ -38,7 +38,8 @@ body, html{
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #000080;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -47,14 +48,23 @@ body, html{
     width: 65%;
     padding: 20px;
     text-align: center;
-    font-size: 3em;
+    
 
   }
 
   .bg-text p{
     opacity: 0.8;
+    font-size: 2vw;
+    font-family: 'Gamecube'
+    
   }
 
+  @font-face{
+    font-family: 'Gamecube';
+    src: url(../fontFaces/GameCube.ttf);
+}
+
+/* 
   .bg-text button{
       margin: 10px;
       border-color: #000080;
@@ -64,8 +74,19 @@ body, html{
   .bg-text button:hover{
     background-color: #b64545bb;
     border-color: #000080;
-  }
+  } */
 
+
+  .bg-text button{
+    margin: 10px;
+    border-color: #000080;
+    color: #000080;
+}
+
+.bg-text button:hover{
+  background-color: #000080;
+  border-color: #000080;
+}
 
 
 
