@@ -44,3 +44,12 @@ h1{
 .btn-group button:hover{
     background-color: #000080;
 }
+
+.modal-footer button{
+    border-color: #000080;
+    color: rebeccapurple;
+}
+
+.modal-footer button:hover{
+    background-color: #000080;
+}
