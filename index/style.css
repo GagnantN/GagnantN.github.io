@@ -54,14 +54,15 @@ body, html{
 
   .bg-text p{
     opacity: 0.8;
-    font-size: 2vw;
-    font-family: 'Gamecube'
+    font-size: 4vw;
+    font-family: 'Gamecube';
+    color:white;
     
   }
 
   @font-face{
     font-family: 'Gamecube';
-    src: url(../fontFaces/GameCube.ttf);
+    src: url(Games.ttf);
 }
 
 /* 
@@ -79,13 +80,18 @@ body, html{
 
   .bg-text button{
     margin: 10px;
+
+    background-color: #000080;
     border-color: #000080;
-    color: #000080;
 }
 
 .bg-text button:hover{
-  background-color: #000080;
   border-color: #000080;
+  color: #ffffff;
+}
+
+.tiretdemerde {
+  font-family: sans-serif
 }
 
 
