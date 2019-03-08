@@ -27,8 +27,21 @@ html {
 h1{
     text-align: center;
     margin-top: 5vh;
-    padding-top: 5vh;
+    padding-top: 0vh;
     margin-bottom: 5vh;
+    font-family: 'gamezit';
+    font-size: 6vh;
+    padding-bottom: 5vh;
+}
+
+@font-face{
+    font-family: 'gamez';
+    src: url(font/Games.ttf);
+}
+
+@font-face{
+    font-family: 'gamezit';
+    src: url(font/Games-Italic.ttf);
 }
 
 .bsfooter{

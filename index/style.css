@@ -53,11 +53,9 @@ body, html{
   }
 
   .bg-text p{
-    opacity: 0.8;
     font-size: 4vw;
     font-family: 'Gamecube';
     color:white;
-    
   }
 
   @font-face{
