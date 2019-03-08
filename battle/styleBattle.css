@@ -14,6 +14,10 @@ html {
     z-index: 100;
 }
 
+li.audioplayer {
+  margin-left: 69vw
+  }
+
 
 .logo{
     width: 7vh;

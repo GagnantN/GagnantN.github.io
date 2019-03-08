@@ -39,7 +39,9 @@ h1{
 
 .menubootstrap{
     margin-bottom: 10vh;
-
+    /* font-family: 'gamez'; 
+    font-size: 3vh; */
+    font-weight: 700;
 }
 
 .change {
