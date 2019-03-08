@@ -32,11 +32,11 @@ html {
 
 h1 {
     font-family: 'gamezit';
-    font-size: 3vw;
+    font-size: 6vh;
     padding-bottom: 5vh;
     
     }
-}
+
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);

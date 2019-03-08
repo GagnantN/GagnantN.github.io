@@ -33,6 +33,26 @@ h1{
     bottom: 0px;
 }
 
+@font-face{
+    font-family: 'gamez';
+    src: url(font/Games.ttf);
+}
+
+@font-face{
+    font-family: 'gamezit';
+    src: url(font/Games-Italic.ttf);
+}
+
+.xxx{
+	width: 100%
+}
+
+h1 {
+    font-family: 'gamezit';
+    font-size: 6vh;
+	padding-bottom: 5vh;
+    }
+
 .menubootstrap{
 	margin-bottom: 10vh;
 	    /* font-family: 'gamez'; 

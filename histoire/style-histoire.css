@@ -75,7 +75,7 @@ margin-left: 70vw
     font-size: 2.2vw;
     text-transform: capitalize;
     margin: 0 8vw 0 13vw;
-    transform: translateY(-25vw);
+    transform: translateY(-50vw);
     color: white
 }
 
@@ -84,7 +84,7 @@ margin-left: 70vw
     font-size: 1.5rem;
     text-transform: capitalize;
     margin-top: 0vh;
-    transform: translateY(-5vw);
+    transform: translateY(0vw);
     text-align: center
 }
 
@@ -92,6 +92,17 @@ h1, h2{
     text-align: center;
     padding: 4vh 0 4vh 0;
     font-family: 'gamez';
+}
+
+h1{
+    font-family: 'gamezit';
+    font-size: 6vh;
+    padding-bottom: 7vh;
+    padding-top: 9vh;
+}
+
+h2 {
+    padding-top: 10vh;
 }
 
 h3.date{
