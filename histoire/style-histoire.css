@@ -76,7 +76,7 @@ margin-left: 70vw
     text-transform: capitalize;
     margin: 0 8vw 0 13vw;
     transform: translateY(-50vw);
-    color: white
+    color: white;
 }
 
 .introd p{
@@ -85,9 +85,25 @@ margin-left: 70vw
     text-transform: capitalize;
     margin-top: 0vh;
     transform: translateY(0vw);
-    text-align: center
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 2vh 2vw 2vh 2vw;
+
 }
 
+p.quote{
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+    padding: 0.5vw 0 0 2vh;
+    border-radius: 15px;
+    font-size: 2.2vw;
+}
+
+.cardate{
+    width: 100vw
+}
 h1, h2{
     text-align: center;
     padding: 4vh 0 4vh 0;
@@ -101,8 +117,12 @@ h1{
     padding-top: 9vh;
 }
 
+h1.event{
+padding-top; 10vh
+}
+
 h2 {
-    padding-top: 10vh;
+    padding: 10vh 0 10vh 0;
 }
 
 h3.date{
