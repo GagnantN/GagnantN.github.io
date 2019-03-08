@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 
 /* MENU NAV */
 
@@ -30,15 +35,16 @@ html {
 
 /* BODY */
 
-h1{
+h1, h2{
     text-align: center;
-    margin: 2vh 0 2vh 0;
+    padding: 4vh 0 4vh 0;
 }
 
 h3.date{
     margin: 4vh 0 4vh 0;
     text-align: center
 }
+
 
 /*vertical line for chronology styling attempt*/
 /* .vertical-line{
@@ -54,7 +60,9 @@ h3.date{
 
 .card{
     max-width: 60%; 
-    margin-left: 20%
+    margin-left: 20%;
+    padding: 5vh 5vw 5vh 5vw;
+
 }
 
 
@@ -71,5 +79,4 @@ h3.date{
 
 .bsfooter ul{
     margin: auto;
-    bottom: 0
   }
