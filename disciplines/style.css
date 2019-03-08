@@ -51,8 +51,11 @@ h1{
     background-color: #000080;
 }
 
-/*FOOTER*/
+.modal-footer button{
+    border-color: #000080;
+    color: rebeccapurple;
+}
 
-.bsfooter ul{
-    margin: auto;
-  }
+.modal-footer button:hover{
+    background-color: #000080;
+}
